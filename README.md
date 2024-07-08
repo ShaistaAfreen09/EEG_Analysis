@@ -1,21 +1,24 @@
+# EEG Data Analysis and Classification Project
 
-# EEG Analysis Project
+## Project Overview
+This project aims to analyze EEG data collected during mental arithmetic tasks and classify different mental states using deep learning models.
 
-## Overview
-This repository contains the code and analysis for my deep learning internship project focused on EEG data analysis. The project involves loading EEG data, conducting spectral analysis, implementing deep learning models for classification, and evaluating their performance.
+## Files and Folders
+- `eeg_analysis.ipynb`: Jupyter Notebook containing detailed steps of analysis.
+- `load_eeg_data.py`: Python script to load EEG data from `.edf` files.
+- `psd_analysis.py`: Python script for Power Spectral Density (PSD) analysis.
+- `eegnet_classification.py`: Python script implementing EEGNet model for classification.
+- `data/`: Folder containing EEG data files (`SubjectXX_1.edf`, `SubjectXX_2.edf`, etc.).
+- `results/`: Folder to store analysis results (`psd_results.csv`, `classification_results.csv`).
+- `docs/`: Documentation folder including this README file.
 
-## Folder Structure
-- **notebooks/**: Contains Jupyter notebooks used for data analysis and model training.
-  - `eeg_analysis.ipynb`: Detailed analysis notebook covering data loading, preprocessing, model implementation, and evaluation.
-- **scripts/**: Contains Python scripts used for data processing, model training, and utility functions.
-  - `populate_mongodb.py`: Script for populating MongoDB with EEG data.
-  - `edf_parameters.py`: Script for extracting EDF file parameters.
-  - Other scripts as needed for data manipulation and model training.
-- **data/**: Placeholder folder for EEG datasets used in the project.
-  - Ensure datasets are stored here or provide instructions on how to obtain them.
+## Usage
+1. **Loading EEG Data**: Use `load_eeg_data.py` to load EEG data into a structured format.
+2. **PSD Analysis**: Execute `psd_analysis.py` to perform PSD analysis and compare results.
+3. **Classification**: Implement classification using `eegnet_classification.py`. Adjust parameters and models as needed.
 
-## Setup Instructions
-1. **Clone Repository:**
-   ```bash
-   git clone <repository_url>
-   cd eeg_analysis_project
+## Requirements
+- Python 3.x
+- Libraries: mne, tensorflow, sklearn, etc. (List dependencies in a `requirements.txt` file)
+
+
