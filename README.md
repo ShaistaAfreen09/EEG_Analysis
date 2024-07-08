@@ -9,7 +9,6 @@ This project aims to analyze EEG data collected during mental arithmetic tasks a
 - `psd_analysis.py`: Python script for Power Spectral Density (PSD) analysis.
 - `eegnet_classification.py`: Python script implementing EEGNet model for classification.
 - `data/`: Folder containing EEG data files (`SubjectXX_1.edf`, `SubjectXX_2.edf`, etc.).
-- `results/`: Folder to store analysis results (`psd_results.csv`, `classification_results.csv`).
 - `docs/`: Documentation folder including this README file.
 
 ## Usage
@@ -19,6 +18,6 @@ This project aims to analyze EEG data collected during mental arithmetic tasks a
 
 ## Requirements
 - Python 3.x
-- Libraries: mne, tensorflow, sklearn, etc. (List dependencies in a `requirements.txt` file)
+
 
 
